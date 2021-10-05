@@ -1,0 +1,230 @@
+
+/* ----menu bar start----- */
+@media (max-width:991px){
+    .menu_bar{
+        display: flex;
+    }
+    .close_menu{
+        display: flex;
+    }
+    #nav_menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 0px;
+        height: 100%;
+        background-color: #122033;
+        padding-top: 30px;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.5s ease;
+        z-index: 99;
+    }
+    #nav_menu .regular_btn{
+        margin-left: 15px;
+    }
+    #nav_menu.open{
+        width: 280px;
+        visibility: visible;
+        opacity: 1;
+    }
+    #nav_menu li{
+        display: block;
+        margin: 15px 15px;
+    }
+    #nav_menu li a{
+        color: white;
+    }
+}
+/* ----menu bar end----- */
+
+
+
+/* ---------mobile size ------------------ */
+@media (max-width:576px){
+    .header {
+        height: 100%;
+    }
+    .hero_content .hero_first_text h5 {
+        font-size: 15px;
+    }
+    .hero_section {
+        padding-top: 180px;
+    }
+    .hero_content {
+        padding-bottom: 50px;
+    }
+    .hero_content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .effect_7 {
+        left: 30%;
+        top: 25%;
+        border: 4px solid #6883DE;
+        display: none;
+    }
+    .hero_content p {
+        font-size: 16px;
+        max-width: 300px;
+        line-height: 26px;
+    }
+    /* company logo start*/
+    .company_logo {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /* company logo end*/
+
+    /* --feature section start*/
+    .features_wrapper{
+        flex-direction: column-reverse;
+    }
+    /* --feature section end*/
+
+    /* --services section start-- */
+    .ser_heading_text h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 46px;
+    }
+    .ser_sm_text p {
+        padding-left: 0px;
+    }
+    .ser_item {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ser_item .icon {
+        margin: 0 auto 20px;
+    }
+    .ser_item_text p {
+        margin: 0 auto;
+        line-height: 26px;
+    }
+    /* --services section end-- */
+
+    /* --design and built section start--- */
+    .design_built_wrapper{
+        flex-direction: column-reverse;
+    }
+    .design_built_content {
+        margin-bottom: 30px;
+    }
+    .design_built_content h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    /* --design and built section end--- */
+
+    /* --chose section start--- */
+    .sec_title h2 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .sec_title p {
+        max-width: 340px;
+    }
+    .chose_app_item {
+        margin-bottom: 30px;
+    }
+    /* --chose section end--- */
+
+    /* planing section start */
+    .planing_content .planing_title h2 {
+        font-size: 35px;
+        line-height: 52px;
+    }
+    .planing_content{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .planing_content .planing_title p {
+        margin: 0 auto 20px;
+    }
+    .planing_content .planing_icon_img{
+        margin: 0 auto 20px;
+    }
+    .planing_box_text p {
+        margin: 0 auto;
+    }
+    .planing_img {
+        padding-top: 30px;
+    }
+    /* planing section end */
+
+    /* --pricing section start */
+    .pricing_content_box{
+        justify-content: center !important;
+    }
+    /* --pricing section end */
+
+    /*  --testimonial section start---*/
+    .testimonial_wrapper{
+        flex-direction: column-reverse;
+    }
+    .testimonial_title h2 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .testimonials_img {
+        text-align: center;
+        padding-top: 50px;
+    }
+    /*  --testimonial section end---*/
+
+    /* faq section start--- */
+    .faq .question h3 {
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+    .faq.active .answer p {
+        height: 250px;
+    }
+    /* faq section end--- */
+
+    /* download content section start */
+    .download_app_content h2 {
+        font-size: 38px;
+    }
+    .app_store{
+        margin-left: 0px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+    /* download content section end */
+
+}
+/* ---------mobile size ------------------ */
+
+/* --mobile small device start---- */
+@media (max-width:350px){
+    .hero_content h2 {
+        font-size: 32px;
+    }
+    .feature_title h2 {
+        font-size: 35px;
+    }
+    .feature_list_text h3 {
+        font-size: 18px;
+    }
+    .ser_heading_text h2 {
+        line-height: 40px;
+    }
+    .planing_content .planing_title h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .sec_title h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .client_details {
+        padding-bottom: 20px;
+    }
+    .faq.active .answer p {
+        height: 280px;
+    }
+}
+/* --mobile small device end---- */
